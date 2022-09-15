@@ -80,19 +80,6 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Address 2 :"/>
-      </Properties>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="150" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -102,7 +89,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="180" width="-1" height="-1"/>
+          <AbsoluteConstraints x="10" y="150" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -115,7 +102,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="210" width="-1" height="-1"/>
+          <AbsoluteConstraints x="10" y="180" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -128,7 +115,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="240" width="-1" height="-1"/>
+          <AbsoluteConstraints x="10" y="210" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -141,7 +128,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="295" width="-1" height="20"/>
+          <AbsoluteConstraints x="10" y="270" width="-1" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -154,7 +141,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="265" width="80" height="20"/>
+          <AbsoluteConstraints x="10" y="240" width="80" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -167,7 +154,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="325" width="60" height="20"/>
+          <AbsoluteConstraints x="10" y="300" width="60" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -180,7 +167,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="350" width="-1" height="-1"/>
+          <AbsoluteConstraints x="10" y="330" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -193,7 +180,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="380" width="-1" height="-1"/>
+          <AbsoluteConstraints x="10" y="360" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -206,17 +193,1056 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="410" width="-1" height="-1"/>
+          <AbsoluteConstraints x="10" y="390" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="com.toedter.components.JLocaleChooser" name="jLocaleChooser1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1033">
+            <StringItem index="0" value="Thai (Thai Thailand)"/>
+            <StringItem index="1" value="Turkmen (Latin Turkmenistan)"/>
+            <StringItem index="2" value="VietNamese"/>
+            <StringItem index="3" value="Tigrinya (Ethiopia)"/>
+            <StringItem index="4" value="Tamil (Singapore)"/>
+            <StringItem index="5" value="English (Niue)"/>
+            <StringItem index="6" value="Chinese (Simplified"/>
+            <StringItem index="7" value="Singapore)"/>
+            <StringItem index="8" value="Fulah (Adlam"/>
+            <StringItem index="9" value="Liberia)"/>
+            <StringItem index="10" value="English (Jamaica)"/>
+            <StringItem index="11" value="Northern Sami (Latin"/>
+            <StringItem index="12" value="Norway)"/>
+            <StringItem index="13" value="Spanish (Bolivia)"/>
+            <StringItem index="14" value="Dzongkha (Bhutan)"/>
+            <StringItem index="15" value="Bosnian (Bosnia &amp; Herzegovina)"/>
+            <StringItem index="16" value="Lower Sorbian (Germany)"/>
+            <StringItem index="17" value="Luxembourgish (Latin"/>
+            <StringItem index="18" value="Luxembourg)"/>
+            <StringItem index="19" value="English (Liberia)"/>
+            <StringItem index="20" value="Arabic (Chad)"/>
+            <StringItem index="21" value="Nuer (Latin"/>
+            <StringItem index="22" value="South Sudan)"/>
+            <StringItem index="23" value="Fulah (Latin"/>
+            <StringItem index="24" value="Mauritania)"/>
+            <StringItem index="25" value="Swahili (Uganda)"/>
+            <StringItem index="26" value="Turkmen (Turkmenistan)"/>
+            <StringItem index="27" value="Serbian (Cyrillic"/>
+            <StringItem index="28" value="Montenegro)"/>
+            <StringItem index="29" value="Arabic (Egypt)"/>
+            <StringItem index="30" value="Ossetic (Cyrillic"/>
+            <StringItem index="31" value="Georgia)"/>
+            <StringItem index="32" value="Yoruba (Nigeria)"/>
+            <StringItem index="33" value="Northern Sami (Norway)"/>
+            <StringItem index="34" value="English (Palau)"/>
+            <StringItem index="35" value="Polish (Poland)"/>
+            <StringItem index="36" value="Serbian (Serbia and Montenegro)"/>
+            <StringItem index="37" value="Nepali (India)"/>
+            <StringItem index="38" value="Aghem (Latin"/>
+            <StringItem index="39" value="Cameroon)"/>
+            <StringItem index="40" value="Arabic (Western Sahara)"/>
+            <StringItem index="41" value="Bosnian (Latin"/>
+            <StringItem index="42" value="Bosnia &amp; Herzegovina)"/>
+            <StringItem index="43" value="Low German (Germany)"/>
+            <StringItem index="44" value="Norwegian Bokm&#xe5;l (Svalbard &amp; Jan Mayen)"/>
+            <StringItem index="45" value="Spanish (United States)"/>
+            <StringItem index="46" value="English (United States"/>
+            <StringItem index="47" value="Computer)"/>
+            <StringItem index="48" value="Portuguese (Macao SAR China)"/>
+            <StringItem index="49" value="Luxembourgish (Luxembourg)"/>
+            <StringItem index="50" value="Lower Sorbian (Latin"/>
+            <StringItem index="51" value="Germany)"/>
+            <StringItem index="52" value="Icelandic (Latin"/>
+            <StringItem index="53" value="Iceland)"/>
+            <StringItem index="54" value="Somali (Kenya)"/>
+            <StringItem index="55" value="Zarma (Niger)"/>
+            <StringItem index="56" value="Armenian (Armenian"/>
+            <StringItem index="57" value="Armenia)"/>
+            <StringItem index="58" value="Fulah (Latin"/>
+            <StringItem index="59" value="Ghana)"/>
+            <StringItem index="60" value="French (St. Pierre &amp; Miquelon)"/>
+            <StringItem index="61" value="Arabic (Comoros)"/>
+            <StringItem index="62" value="Norwegian (Norway"/>
+            <StringItem index="63" value="Nynorsk)"/>
+            <StringItem index="64" value="Polish (Latin"/>
+            <StringItem index="65" value="Poland)"/>
+            <StringItem index="66" value="Aghem (Cameroon)"/>
+            <StringItem index="67" value="Gujarati (Gujarati"/>
+            <StringItem index="68" value="India)"/>
+            <StringItem index="69" value="Turkish (Turkey)"/>
+            <StringItem index="70" value="Kalaallisut (Latin"/>
+            <StringItem index="71" value="Greenland)"/>
+            <StringItem index="72" value="Arabic (Mauritania)"/>
+            <StringItem index="73" value="Spanish (Dominican Republic)"/>
+            <StringItem index="74" value="Kalaallisut (Greenland)"/>
+            <StringItem index="75" value="English (Nauru)"/>
+            <StringItem index="76" value="Low German (Latin"/>
+            <StringItem index="77" value="Germany)"/>
+            <StringItem index="78" value="Kinyarwanda (Latin"/>
+            <StringItem index="79" value="Rwanda)"/>
+            <StringItem index="80" value="English (Australia)"/>
+            <StringItem index="81" value="English (Cyprus)"/>
+            <StringItem index="82" value="Turkish (Latin"/>
+            <StringItem index="83" value="Turkey)"/>
+            <StringItem index="84" value="Tigrinya (Eritrea)"/>
+            <StringItem index="85" value="Nuer (South Sudan)"/>
+            <StringItem index="86" value="English (Rwanda)"/>
+            <StringItem index="87" value="Croatian (Latin"/>
+            <StringItem index="88" value="Croatia)"/>
+            <StringItem index="89" value="Lingala (Congo - Kinshasa)"/>
+            <StringItem index="90" value="Ngiemboon (Cameroon)"/>
+            <StringItem index="91" value="Zarma (Latin"/>
+            <StringItem index="92" value="Niger)"/>
+            <StringItem index="93" value="Arabic (Israel)"/>
+            <StringItem index="94" value="Odia (India)"/>
+            <StringItem index="95" value="Pashto (Arabic"/>
+            <StringItem index="96" value="Afghanistan)"/>
+            <StringItem index="97" value="Arabic (Syria)"/>
+            <StringItem index="98" value="Luo (Latin"/>
+            <StringItem index="99" value="Kenya)"/>
+            <StringItem index="100" value="Bafia (Cameroon)"/>
+            <StringItem index="101" value="Tatar (Russia)"/>
+            <StringItem index="102" value="Oromo (Kenya)"/>
+            <StringItem index="103" value="English (American Samoa)"/>
+            <StringItem index="104" value="French (Vanuatu)"/>
+            <StringItem index="105" value="Chinese (Taiwan)"/>
+            <StringItem index="106" value="Sindhi (India)"/>
+            <StringItem index="107" value="Ngiemboon (Latin"/>
+            <StringItem index="108" value="Cameroon)"/>
+            <StringItem index="109" value="Portuguese (Mozambique)"/>
+            <StringItem index="110" value="French (Niger)"/>
+            <StringItem index="111" value="Friulian (Latin"/>
+            <StringItem index="112" value="Italy)"/>
+            <StringItem index="113" value="Asturian (Latin"/>
+            <StringItem index="114" value="Spain)"/>
+            <StringItem index="115" value="Bena (Latin"/>
+            <StringItem index="116" value="Tanzania)"/>
+            <StringItem index="117" value="Shambala (Tanzania)"/>
+            <StringItem index="118" value="Burmese (Myanmar"/>
+            <StringItem index="119" value="Myanmar (Burma))"/>
+            <StringItem index="120" value="English (Jersey)"/>
+            <StringItem index="121" value="Lingala (Central African Republic)"/>
+            <StringItem index="122" value="Uzbek (Afghanistan)"/>
+            <StringItem index="123" value="Danish (Latin"/>
+            <StringItem index="124" value="Denmark)"/>
+            <StringItem index="125" value="English (Christmas Island)"/>
+            <StringItem index="126" value="Akan (Latin"/>
+            <StringItem index="127" value="Ghana)"/>
+            <StringItem index="128" value="English (Austria)"/>
+            <StringItem index="129" value="Cantonese (Simplified"/>
+            <StringItem index="130" value="China)"/>
+            <StringItem index="131" value="Kannada (India)"/>
+            <StringItem index="132" value="English (Tanzania)"/>
+            <StringItem index="133" value="English (Puerto Rico)"/>
+            <StringItem index="134" value="French (New Caledonia)"/>
+            <StringItem index="135" value="Scottish Gaelic (United Kingdom)"/>
+            <StringItem index="136" value="French (Cameroon)"/>
+            <StringItem index="137" value="Walser (Latin"/>
+            <StringItem index="138" value="Switzerland)"/>
+            <StringItem index="139" value="Punjabi (Gurmukhi"/>
+            <StringItem index="140" value="India)"/>
+            <StringItem index="141" value="Urdu (Arabic"/>
+            <StringItem index="142" value="Pakistan)"/>
+            <StringItem index="143" value="Nigerian Pidgin (Latin"/>
+            <StringItem index="144" value="Nigeria)"/>
+            <StringItem index="145" value="Teso (Uganda)"/>
+            <StringItem index="146" value="Norwegian (Latin"/>
+            <StringItem index="147" value="Norway)"/>
+            <StringItem index="148" value="Bangla (Bangla"/>
+            <StringItem index="149" value="Bangladesh)"/>
+            <StringItem index="150" value="Inari Sami (Latin"/>
+            <StringItem index="151" value="Finland)"/>
+            <StringItem index="152" value="English (Netherlands)"/>
+            <StringItem index="153" value="Lingala (Congo - Brazzaville)"/>
+            <StringItem index="154" value="Nepali (Devanagari"/>
+            <StringItem index="155" value="Nepal)"/>
+            <StringItem index="156" value="Azerbaijani (Azerbaijan)"/>
+            <StringItem index="157" value="Marathi (India)"/>
+            <StringItem index="158" value="Greek (Cyprus)"/>
+            <StringItem index="159" value="Kurdish (Turkey)"/>
+            <StringItem index="160" value="Gusii (Latin"/>
+            <StringItem index="161" value="Kenya)"/>
+            <StringItem index="162" value="Northern Luri (Iran)"/>
+            <StringItem index="163" value="Swiss German (France)"/>
+            <StringItem index="164" value="Spanish (Honduras)"/>
+            <StringItem index="165" value="Hungarian (Hungary)"/>
+            <StringItem index="166" value="Fulah (Senegal)"/>
+            <StringItem index="167" value="Albanian (North Macedonia)"/>
+            <StringItem index="168" value="Serbian (Cyrillic"/>
+            <StringItem index="169" value="Bosnia &amp; Herzegovina)"/>
+            <StringItem index="170" value="Bulgarian (Cyrillic"/>
+            <StringItem index="171" value="Bulgaria)"/>
+            <StringItem index="172" value="Somali (Latin"/>
+            <StringItem index="173" value="Somalia)"/>
+            <StringItem index="174" value="Estonian (Estonia)"/>
+            <StringItem index="175" value="Arabic (Oman)"/>
+            <StringItem index="176" value="Western Frisian (Netherlands)"/>
+            <StringItem index="177" value="Turkish (Cyprus)"/>
+            <StringItem index="178" value="Latvian (Latin"/>
+            <StringItem index="179" value="Latvia)"/>
+            <StringItem index="180" value="Uzbek (Latin"/>
+            <StringItem index="181" value="Uzbekistan)"/>
+            <StringItem index="182" value="Northern Luri (Iraq)"/>
+            <StringItem index="183" value="Duala (Cameroon)"/>
+            <StringItem index="184" value="German (Italy)"/>
+            <StringItem index="185" value="Portuguese (Latin"/>
+            <StringItem index="186" value="Brazil)"/>
+            <StringItem index="187" value="French (Tunisia)"/>
+            <StringItem index="188" value="Serbian (Serbia)"/>
+            <StringItem index="189" value="German (Switzerland)"/>
+            <StringItem index="190" value="Swahili (Latin"/>
+            <StringItem index="191" value="Tanzania)"/>
+            <StringItem index="192" value="French (French Polynesia)"/>
+            <StringItem index="193" value="Portuguese (Equatorial Guinea)"/>
+            <StringItem index="194" value="Vunjo (Tanzania)"/>
+            <StringItem index="195" value="Machame (Tanzania)"/>
+            <StringItem index="196" value="Malagasy (Latin"/>
+            <StringItem index="197" value="Madagascar)"/>
+            <StringItem index="198" value="English (Tuvalu)"/>
+            <StringItem index="199" value="English (Pitcairn Islands)"/>
+            <StringItem index="200" value="Luba-Katanga (Latin"/>
+            <StringItem index="201" value="Congo - Kinshasa)"/>
+            <StringItem index="202" value="Chinese (Simplified"/>
+            <StringItem index="203" value="Hong Kong SAR China)"/>
+            <StringItem index="204" value="Dutch (Netherlands)"/>
+            <StringItem index="205" value="English (Guyana)"/>
+            <StringItem index="206" value="Jola-Fonyi (Senegal)"/>
+            <StringItem index="207" value="Dutch (Cura&#xe7;ao)"/>
+            <StringItem index="208" value="Arabic (Algeria)"/>
+            <StringItem index="209" value="Portuguese (Switzerland)"/>
+            <StringItem index="210" value="French (Equatorial Guinea)"/>
+            <StringItem index="211" value="English (Nigeria)"/>
+            <StringItem index="212" value="French (C&#xf4;te d&#x2019;Ivoire)"/>
+            <StringItem index="213" value="Kikuyu (Kenya)"/>
+            <StringItem index="214" value="Interlingua (world)"/>
+            <StringItem index="215" value="English (Pakistan)"/>
+            <StringItem index="216" value="Chinese (China)"/>
+            <StringItem index="217" value="English (St. Lucia)"/>
+            <StringItem index="218" value="Bodo (India)"/>
+            <StringItem index="219" value="Fulah (Adlam"/>
+            <StringItem index="220" value="Burkina Faso)"/>
+            <StringItem index="221" value="Manx (Isle of Man)"/>
+            <StringItem index="222" value="Cornish (Latin"/>
+            <StringItem index="223" value="United Kingdom)"/>
+            <StringItem index="224" value="Bambara (Latin"/>
+            <StringItem index="225" value="Mali)"/>
+            <StringItem index="226" value="Yangben (Latin"/>
+            <StringItem index="227" value="Cameroon)"/>
+            <StringItem index="228" value="Macedonian (North Macedonia)"/>
+            <StringItem index="229" value="English (Trinidad &amp; Tobago)"/>
+            <StringItem index="230" value="Slovenian (Slovenia)"/>
+            <StringItem index="231" value="Sango (Latin"/>
+            <StringItem index="232" value="Central African Republic)"/>
+            <StringItem index="233" value="Finnish (Latin"/>
+            <StringItem index="234" value="Finland)"/>
+            <StringItem index="235" value="Xhosa (South Africa)"/>
+            <StringItem index="236" value="French (Belgium)"/>
+            <StringItem index="237" value="Ngomba (Cameroon)"/>
+            <StringItem index="238" value="Fulah (Adlam"/>
+            <StringItem index="239" value="Niger)"/>
+            <StringItem index="240" value="Spanish (Venezuela)"/>
+            <StringItem index="241" value="Meru (Kenya)"/>
+            <StringItem index="242" value="English (Bermuda)"/>
+            <StringItem index="243" value="Norwegian Bokm&#xe5;l (Norway)"/>
+            <StringItem index="244" value="Kabuverdianu (Cape Verde)"/>
+            <StringItem index="245" value="Vietnamese (Vietnam)"/>
+            <StringItem index="246" value="English (United States)"/>
+            <StringItem index="247" value="Morisyen (Mauritius)"/>
+            <StringItem index="248" value="French (Burkina Faso)"/>
+            <StringItem index="249" value="Italian (San Marino)"/>
+            <StringItem index="250" value="Persian (Arabic"/>
+            <StringItem index="251" value="Iran)"/>
+            <StringItem index="252" value="Sanskrit (Devanagari"/>
+            <StringItem index="253" value="India)"/>
+            <StringItem index="254" value="French (Mayotte)"/>
+            <StringItem index="255" value="Gujarati (India)"/>
+            <StringItem index="256" value="Fulah (Latin"/>
+            <StringItem index="257" value="Cameroon)"/>
+            <StringItem index="258" value="Maltese (Latin"/>
+            <StringItem index="259" value="Malta)"/>
+            <StringItem index="260" value="Finnish (Finland)"/>
+            <StringItem index="261" value="Catalan (France)"/>
+            <StringItem index="262" value="Serbian (Latin"/>
+            <StringItem index="263" value="Bosnia &amp; Herzegovina)"/>
+            <StringItem index="264" value="Chakma (Chakma"/>
+            <StringItem index="265" value="Bangladesh)"/>
+            <StringItem index="266" value="Ukrainian (Cyrillic"/>
+            <StringItem index="267" value="Ukraine)"/>
+            <StringItem index="268" value="French (Djibouti)"/>
+            <StringItem index="269" value="Fulah (Adlam"/>
+            <StringItem index="270" value="Guinea-Bissau)"/>
+            <StringItem index="271" value="Hausa (Ghana)"/>
+            <StringItem index="272" value="Yiddish (Hebrew"/>
+            <StringItem index="273" value="world)"/>
+            <StringItem index="274" value="Afrikaans (Latin"/>
+            <StringItem index="275" value="South Africa)"/>
+            <StringItem index="276" value="Tigrinya (Ethiopic"/>
+            <StringItem index="277" value="Ethiopia)"/>
+            <StringItem index="278" value="Tongan (Latin"/>
+            <StringItem index="279" value="Tonga)"/>
+            <StringItem index="280" value="German (Belgium)"/>
+            <StringItem index="281" value="Amharic (Ethiopic"/>
+            <StringItem index="282" value="Ethiopia)"/>
+            <StringItem index="283" value="Fulah (Latin"/>
+            <StringItem index="284" value="Guinea-Bissau)"/>
+            <StringItem index="285" value="Chinese (Macao SAR China)"/>
+            <StringItem index="286" value="Mundang (Latin"/>
+            <StringItem index="287" value="Cameroon)"/>
+            <StringItem index="288" value="Nyankole (Uganda)"/>
+            <StringItem index="289" value="Rundi (Latin"/>
+            <StringItem index="290" value="Burundi)"/>
+            <StringItem index="291" value="Malay (Malaysia)"/>
+            <StringItem index="292" value="Tamil (Sri Lanka)"/>
+            <StringItem index="293" value="German (Latin"/>
+            <StringItem index="294" value="Germany)"/>
+            <StringItem index="295" value="Cebuano (Philippines)"/>
+            <StringItem index="296" value="Tajik (Tajikistan)"/>
+            <StringItem index="297" value="Vunjo (Latin"/>
+            <StringItem index="298" value="Tanzania)"/>
+            <StringItem index="299" value="Quechua (Peru)"/>
+            <StringItem index="300" value="Spanish (Ecuador)"/>
+            <StringItem index="301" value="Macedonian (Cyrillic"/>
+            <StringItem index="302" value="North Macedonia)"/>
+            <StringItem index="303" value="Fulah (Adlam"/>
+            <StringItem index="304" value="Cameroon)"/>
+            <StringItem index="305" value="Ganda (Uganda)"/>
+            <StringItem index="306" value="Fulah (Latin"/>
+            <StringItem index="307" value="Niger)"/>
+            <StringItem index="308" value="Zulu (South Africa)"/>
+            <StringItem index="309" value="French (Latin"/>
+            <StringItem index="310" value="France)"/>
+            <StringItem index="311" value="Sundanese (Latin"/>
+            <StringItem index="312" value="Indonesia)"/>
+            <StringItem index="313" value="Chiga (Uganda)"/>
+            <StringItem index="314" value="Colognian (Germany)"/>
+            <StringItem index="315" value="Russian (Russia)"/>
+            <StringItem index="316" value="Nigerian Pidgin (Nigeria)"/>
+            <StringItem index="317" value="English (Dominica)"/>
+            <StringItem index="318" value="Hebrew (Hebrew"/>
+            <StringItem index="319" value="Israel)"/>
+            <StringItem index="320" value="English (Burundi)"/>
+            <StringItem index="321" value="Irish (Ireland)"/>
+            <StringItem index="322" value="Cantonese (China)"/>
+            <StringItem index="323" value="Romansh (Latin"/>
+            <StringItem index="324" value="Switzerland)"/>
+            <StringItem index="325" value="English (Samoa)"/>
+            <StringItem index="326" value="French (Luxembourg)"/>
+            <StringItem index="327" value="Maori (New Zealand)"/>
+            <StringItem index="328" value="Arabic (Eritrea)"/>
+            <StringItem index="329" value="Shona (Zimbabwe)"/>
+            <StringItem index="330" value="Spanish (Ceuta &amp; Melilla)"/>
+            <StringItem index="331" value="Irish (United Kingdom)"/>
+            <StringItem index="332" value="Thai (Thailand"/>
+            <StringItem index="333" value="TH"/>
+            <StringItem index="334" value="Thai Digits)"/>
+            <StringItem index="335" value="French (Seychelles)"/>
+            <StringItem index="336" value="English (Sierra Leone)"/>
+            <StringItem index="337" value="Fulah (Latin"/>
+            <StringItem index="338" value="Nigeria)"/>
+            <StringItem index="339" value="Norwegian (Norway)"/>
+            <StringItem index="340" value="Fulah (Adlam"/>
+            <StringItem index="341" value="Nigeria)"/>
+            <StringItem index="342" value="Chinese (Traditional"/>
+            <StringItem index="343" value="Macao SAR China)"/>
+            <StringItem index="344" value="English (St. Helena)"/>
+            <StringItem index="345" value="Sindhi (Arabic"/>
+            <StringItem index="346" value="Pakistan)"/>
+            <StringItem index="347" value="German (Luxembourg)"/>
+            <StringItem index="348" value="German (Germany)"/>
+            <StringItem index="349" value="Norwegian Nynorsk (Latin"/>
+            <StringItem index="350" value="Norway)"/>
+            <StringItem index="351" value="English (Denmark)"/>
+            <StringItem index="352" value="Somali (Djibouti)"/>
+            <StringItem index="353" value="Lithuanian (Lithuania)"/>
+            <StringItem index="354" value="Esperanto (world)"/>
+            <StringItem index="355" value="Pashto (Pakistan)"/>
+            <StringItem index="356" value="English (U.S. Outlying Islands)"/>
+            <StringItem index="357" value="English (Slovenia)"/>
+            <StringItem index="358" value="Vai (Vai"/>
+            <StringItem index="359" value="Liberia)"/>
+            <StringItem index="360" value="Lao (Laos)"/>
+            <StringItem index="361" value="Rombo (Latin"/>
+            <StringItem index="362" value="Tanzania)"/>
+            <StringItem index="363" value="Arabic (Lebanon)"/>
+            <StringItem index="364" value="Northern Luri (Arabic"/>
+            <StringItem index="365" value="Iran)"/>
+            <StringItem index="366" value="Afrikaans (South Africa)"/>
+            <StringItem index="367" value="Fulah (Guinea)"/>
+            <StringItem index="368" value="Colognian (Latin"/>
+            <StringItem index="369" value="Germany)"/>
+            <StringItem index="370" value="Spanish (Belize)"/>
+            <StringItem index="371" value="Arabic (United Arab Emirates)"/>
+            <StringItem index="372" value="Esperanto (Latin"/>
+            <StringItem index="373" value="world)"/>
+            <StringItem index="374" value="Croatian (Croatia)"/>
+            <StringItem index="375" value="Rombo (Tanzania)"/>
+            <StringItem index="376" value="Kashmiri (India)"/>
+            <StringItem index="377" value="Burmese (Myanmar (Burma))"/>
+            <StringItem index="378" value="Mongolian (Mongolia)"/>
+            <StringItem index="379" value="Urdu (Pakistan)"/>
+            <StringItem index="380" value="Danish (Denmark)"/>
+            <StringItem index="381" value="English (Micronesia)"/>
+            <StringItem index="382" value="English (Belgium)"/>
+            <StringItem index="383" value="French (Wallis &amp; Futuna)"/>
+            <StringItem index="384" value="Mazanderani (Iran)"/>
+            <StringItem index="385" value="English (Singapore)"/>
+            <StringItem index="386" value="Kalenjin (Kenya)"/>
+            <StringItem index="387" value="Fulah (Latin"/>
+            <StringItem index="388" value="Gambia)"/>
+            <StringItem index="389" value="Tatar (Cyrillic"/>
+            <StringItem index="390" value="Russia)"/>
+            <StringItem index="391" value="Teso (Latin"/>
+            <StringItem index="392" value="Uganda)"/>
+            <StringItem index="393" value="Asu (Latin"/>
+            <StringItem index="394" value="Tanzania)"/>
+            <StringItem index="395" value="Bena (Tanzania)"/>
+            <StringItem index="396" value="Fulah (Latin"/>
+            <StringItem index="397" value="Guinea)"/>
+            <StringItem index="398" value="Slovenian (Latin"/>
+            <StringItem index="399" value="Slovenia)"/>
+            <StringItem index="400" value="English (Sudan)"/>
+            <StringItem index="401" value="Maithili (Devanagari"/>
+            <StringItem index="402" value="India)"/>
+            <StringItem index="403" value="Japanese (Japan"/>
+            <StringItem index="404" value="JP"/>
+            <StringItem index="405" value="Japanese Calendar)"/>
+            <StringItem index="406" value="Spanish (El Salvador)"/>
+            <StringItem index="407" value="Portuguese (Brazil)"/>
+            <StringItem index="408" value="Manipuri (Bangla"/>
+            <StringItem index="409" value="India)"/>
+            <StringItem index="410" value="Malayalam (India)"/>
+            <StringItem index="411" value="Irish (Latin"/>
+            <StringItem index="412" value="Ireland)"/>
+            <StringItem index="413" value="English (Falkland Islands)"/>
+            <StringItem index="414" value="Icelandic (Iceland)"/>
+            <StringItem index="415" value="Basaa (Latin"/>
+            <StringItem index="416" value="Cameroon)"/>
+            <StringItem index="417" value="English (Diego Garcia)"/>
+            <StringItem index="418" value="Portuguese (S&#xe3;o Tom&#xe9; &amp; Pr&#xed;ncipe)"/>
+            <StringItem index="419" value="Akan (Ghana)"/>
+            <StringItem index="420" value="Uzbek (Arabic"/>
+            <StringItem index="421" value="Afghanistan)"/>
+            <StringItem index="422" value="English (Sweden)"/>
+            <StringItem index="423" value="Chinese (Simplified"/>
+            <StringItem index="424" value="China)"/>
+            <StringItem index="425" value="Spanish (Latin America)"/>
+            <StringItem index="426" value="Lingala (Latin"/>
+            <StringItem index="427" value="Congo - Kinshasa)"/>
+            <StringItem index="428" value="Kako (Latin"/>
+            <StringItem index="429" value="Cameroon)"/>
+            <StringItem index="430" value="Gusii (Kenya)"/>
+            <StringItem index="431" value="Swiss German (Liechtenstein)"/>
+            <StringItem index="432" value="Chakma (Bangladesh)"/>
+            <StringItem index="433" value="Spanish (Canary Islands)"/>
+            <StringItem index="434" value="Arabic (Tunisia)"/>
+            <StringItem index="435" value="Bambara (Mali)"/>
+            <StringItem index="436" value="Cornish (United Kingdom)"/>
+            <StringItem index="437" value="Punjabi (Pakistan)"/>
+            <StringItem index="438" value="Uyghur (China)"/>
+            <StringItem index="439" value="Machame (Latin"/>
+            <StringItem index="440" value="Tanzania)"/>
+            <StringItem index="441" value="Kikuyu (Latin"/>
+            <StringItem index="442" value="Kenya)"/>
+            <StringItem index="443" value="Spanish (Brazil)"/>
+            <StringItem index="444" value="Koyra Chiini (Mali)"/>
+            <StringItem index="445" value="English (Solomon Islands)"/>
+            <StringItem index="446" value="Tibetan (Tibetan"/>
+            <StringItem index="447" value="China)"/>
+            <StringItem index="448" value="Cherokee (United States)"/>
+            <StringItem index="449" value="Kinyarwanda (Rwanda)"/>
+            <StringItem index="450" value="Tachelhit (Tifinagh"/>
+            <StringItem index="451" value="Morocco)"/>
+            <StringItem index="452" value="Arabic (Iraq)"/>
+            <StringItem index="453" value="English (Germany)"/>
+            <StringItem index="454" value="Romanian (Moldova)"/>
+            <StringItem index="455" value="English (Finland)"/>
+            <StringItem index="456" value="Uzbek (Uzbekistan)"/>
+            <StringItem index="457" value="Taita (Kenya)"/>
+            <StringItem index="458" value="Interlingua (Latin"/>
+            <StringItem index="459" value="world)"/>
+            <StringItem index="460" value="Sakha (Cyrillic"/>
+            <StringItem index="461" value="Russia)"/>
+            <StringItem index="462" value="English (Seychelles)"/>
+            <StringItem index="463" value="English (Uganda)"/>
+            <StringItem index="464" value="English (New Zealand)"/>
+            <StringItem index="465" value="Spanish (Uruguay)"/>
+            <StringItem index="466" value="Masai (Kenya)"/>
+            <StringItem index="467" value="Manipuri (India)"/>
+            <StringItem index="468" value="Russian (Ukraine)"/>
+            <StringItem index="469" value="Sango (Central African Republic)"/>
+            <StringItem index="470" value="English (Fiji)"/>
+            <StringItem index="471" value="German (Liechtenstein)"/>
+            <StringItem index="472" value="English (Barbados)"/>
+            <StringItem index="473" value="Inari Sami (Finland)"/>
+            <StringItem index="474" value="Croatian (Bosnia &amp; Herzegovina)"/>
+            <StringItem index="475" value="Yoruba (Latin"/>
+            <StringItem index="476" value="Nigeria)"/>
+            <StringItem index="477" value="German (Austria)"/>
+            <StringItem index="478" value="Luba-Katanga (Congo - Kinshasa)"/>
+            <StringItem index="479" value="Arabic (world)"/>
+            <StringItem index="480" value="Somali (Somalia)"/>
+            <StringItem index="481" value="Latvian (Latvia)"/>
+            <StringItem index="482" value="Arabic (Kuwait)"/>
+            <StringItem index="483" value="Serbian (Cyrillic"/>
+            <StringItem index="484" value="Serbia)"/>
+            <StringItem index="485" value="English (Lesotho)"/>
+            <StringItem index="486" value="English (Hong Kong SAR China)"/>
+            <StringItem index="487" value="Bodo (Devanagari"/>
+            <StringItem index="488" value="India)"/>
+            <StringItem index="489" value="Meru (Latin"/>
+            <StringItem index="490" value="Kenya)"/>
+            <StringItem index="491" value="Chechen (Russia)"/>
+            <StringItem index="492" value="Georgian (Georgia)"/>
+            <StringItem index="493" value="Swahili (Tanzania)"/>
+            <StringItem index="494" value="French (Rwanda)"/>
+            <StringItem index="495" value="Malagasy (Madagascar)"/>
+            <StringItem index="496" value="English (Latin"/>
+            <StringItem index="497" value="United States)"/>
+            <StringItem index="498" value="Ossetic (Russia)"/>
+            <StringItem index="499" value="Serbian (Latin"/>
+            <StringItem index="500" value="Serbia)"/>
+            <StringItem index="501" value="Kyrgyz (Kyrgyzstan)"/>
+            <StringItem index="502" value="Central Atlas Tamazight (Latin"/>
+            <StringItem index="503" value="Morocco)"/>
+            <StringItem index="504" value="Dutch (Latin"/>
+            <StringItem index="505" value="Netherlands)"/>
+            <StringItem index="506" value="Kurdish (Latin"/>
+            <StringItem index="507" value="Turkey)"/>
+            <StringItem index="508" value="Morisyen (Latin"/>
+            <StringItem index="509" value="Mauritius)"/>
+            <StringItem index="510" value="Arabic (Jordan)"/>
+            <StringItem index="511" value="Galician (Latin"/>
+            <StringItem index="512" value="Spain)"/>
+            <StringItem index="513" value="Kyrgyz (Cyrillic"/>
+            <StringItem index="514" value="Kyrgyzstan)"/>
+            <StringItem index="515" value="Amharic (Ethiopia)"/>
+            <StringItem index="516" value="French (Algeria)"/>
+            <StringItem index="517" value="Tibetan (China)"/>
+            <StringItem index="518" value="Quechua (Ecuador)"/>
+            <StringItem index="519" value="Georgian (Georgian"/>
+            <StringItem index="520" value="Georgia)"/>
+            <StringItem index="521" value="English (Montserrat)"/>
+            <StringItem index="522" value="Konkani (Devanagari"/>
+            <StringItem index="523" value="India)"/>
+            <StringItem index="524" value="English (Guernsey)"/>
+            <StringItem index="525" value="Makonde (Latin"/>
+            <StringItem index="526" value="Tanzania)"/>
+            <StringItem index="527" value="Santali (India)"/>
+            <StringItem index="528" value="Swedish (Sweden)"/>
+            <StringItem index="529" value="Serbian (Montenegro)"/>
+            <StringItem index="530" value="English (Zambia)"/>
+            <StringItem index="531" value="French (Mali)"/>
+            <StringItem index="532" value="Hausa (Nigeria)"/>
+            <StringItem index="533" value="Arabic (Saudi Arabia)"/>
+            <StringItem index="534" value="Persian (Afghanistan)"/>
+            <StringItem index="535" value="Filipino (Latin"/>
+            <StringItem index="536" value="Philippines)"/>
+            <StringItem index="537" value="Oromo (Latin"/>
+            <StringItem index="538" value="Ethiopia)"/>
+            <StringItem index="539" value="Ossetic (Georgia)"/>
+            <StringItem index="540" value="Central Kurdish (Arabic"/>
+            <StringItem index="541" value="Iraq)"/>
+            <StringItem index="542" value="Yiddish (world)"/>
+            <StringItem index="543" value="English (Malta)"/>
+            <StringItem index="544" value="English (Ghana)"/>
+            <StringItem index="545" value="English (Israel)"/>
+            <StringItem index="546" value="Kannada (Kannada"/>
+            <StringItem index="547" value="India)"/>
+            <StringItem index="548" value="Central Atlas Tamazight (Morocco)"/>
+            <StringItem index="549" value="Greek (Greek"/>
+            <StringItem index="550" value="Greece)"/>
+            <StringItem index="551" value="Koyraboro Senni (Mali)"/>
+            <StringItem index="552" value="Rwa (Latin"/>
+            <StringItem index="553" value="Tanzania)"/>
+            <StringItem index="554" value="Lakota (United States)"/>
+            <StringItem index="555" value="Vai (Latin"/>
+            <StringItem index="556" value="Liberia)"/>
+            <StringItem index="557" value="Swahili (Congo - Kinshasa)"/>
+            <StringItem index="558" value="Fulah (Adlam"/>
+            <StringItem index="559" value="Mauritania)"/>
+            <StringItem index="560" value="Filipino (Philippines)"/>
+            <StringItem index="561" value="Italian (Vatican City)"/>
+            <StringItem index="562" value="Spanish (Philippines)"/>
+            <StringItem index="563" value="Spanish (Spain)"/>
+            <StringItem index="564" value="Spanish (Colombia)"/>
+            <StringItem index="565" value="Bulgarian (Bulgaria)"/>
+            <StringItem index="566" value="English (St. Vincent &amp; Grenadines)"/>
+            <StringItem index="567" value="Koyraboro Senni (Latin"/>
+            <StringItem index="568" value="Mali)"/>
+            <StringItem index="569" value="Upper Sorbian (Germany)"/>
+            <StringItem index="570" value="Basque (Latin"/>
+            <StringItem index="571" value="Spain)"/>
+            <StringItem index="572" value="English (Europe)"/>
+            <StringItem index="573" value="Swedish (Latin"/>
+            <StringItem index="574" value="Sweden)"/>
+            <StringItem index="575" value="Arabic (Sudan)"/>
+            <StringItem index="576" value="Hausa (Niger)"/>
+            <StringItem index="577" value="English (St. Kitts &amp; Nevis)"/>
+            <StringItem index="578" value="Romanian (Romania)"/>
+            <StringItem index="579" value="Serbian (Latin"/>
+            <StringItem index="580" value="Montenegro)"/>
+            <StringItem index="581" value="Spanish (Guatemala)"/>
+            <StringItem index="582" value="Fulah (Latin"/>
+            <StringItem index="583" value="Liberia)"/>
+            <StringItem index="584" value="Basaa (Cameroon)"/>
+            <StringItem index="585" value="North Ndebele (Latin"/>
+            <StringItem index="586" value="Zimbabwe)"/>
+            <StringItem index="587" value="French (Madagascar)"/>
+            <StringItem index="588" value="Spanish (Chile)"/>
+            <StringItem index="589" value="Kamba (Kenya)"/>
+            <StringItem index="590" value="Persian (Iran)"/>
+            <StringItem index="591" value="English (Macao SAR China)"/>
+            <StringItem index="592" value="Japanese (Japanese"/>
+            <StringItem index="593" value="Japan)"/>
+            <StringItem index="594" value="English (Belize)"/>
+            <StringItem index="595" value="Lakota (Latin"/>
+            <StringItem index="596" value="United States)"/>
+            <StringItem index="597" value="Albanian (Albania)"/>
+            <StringItem index="598" value="Romanian (Latin"/>
+            <StringItem index="599" value="Romania)"/>
+            <StringItem index="600" value="Tasawaq (Niger)"/>
+            <StringItem index="601" value="Kwasio (Cameroon)"/>
+            <StringItem index="602" value="Tamil (Tamil"/>
+            <StringItem index="603" value="India)"/>
+            <StringItem index="604" value="Kabyle (Latin"/>
+            <StringItem index="605" value="Algeria)"/>
+            <StringItem index="606" value="English (Northern Mariana Islands)"/>
+            <StringItem index="607" value="English (Grenada)"/>
+            <StringItem index="608" value="Sangu (Latin"/>
+            <StringItem index="609" value="Tanzania)"/>
+            <StringItem index="610" value="English (Botswana)"/>
+            <StringItem index="611" value="Kabyle (Algeria)"/>
+            <StringItem index="612" value="Makonde (Tanzania)"/>
+            <StringItem index="613" value="Hebrew (Israel)"/>
+            <StringItem index="614" value="Tamil (Malaysia)"/>
+            <StringItem index="615" value="Swedish (Finland)"/>
+            <StringItem index="616" value="North Ndebele (Zimbabwe)"/>
+            <StringItem index="617" value="Luyia (Latin"/>
+            <StringItem index="618" value="Kenya)"/>
+            <StringItem index="619" value="Sinhala (Sinhala"/>
+            <StringItem index="620" value="Sri Lanka)"/>
+            <StringItem index="621" value="English (Ireland)"/>
+            <StringItem index="622" value="Chinese (Singapore)"/>
+            <StringItem index="623" value="English (Kiribati)"/>
+            <StringItem index="624" value="Tasawaq (Latin"/>
+            <StringItem index="625" value="Niger)"/>
+            <StringItem index="626" value="Oromo (Ethiopia)"/>
+            <StringItem index="627" value="Lao (Lao"/>
+            <StringItem index="628" value="Laos)"/>
+            <StringItem index="629" value="Albanian (Latin"/>
+            <StringItem index="630" value="Albania)"/>
+            <StringItem index="631" value="Japanese (Japan)"/>
+            <StringItem index="632" value="Kamba (Latin"/>
+            <StringItem index="633" value="Kenya)"/>
+            <StringItem index="634" value="Fulah (Adlam"/>
+            <StringItem index="635" value="Ghana)"/>
+            <StringItem index="636" value="Korean (Korean"/>
+            <StringItem index="637" value="South Korea)"/>
+            <StringItem index="638" value="French (St. Martin)"/>
+            <StringItem index="639" value="Malay (Indonesia)"/>
+            <StringItem index="640" value="Sanskrit (India)"/>
+            <StringItem index="641" value="Cantonese (Hong Kong SAR China)"/>
+            <StringItem index="642" value="English (Eswatini)"/>
+            <StringItem index="643" value="Faroese (Latin"/>
+            <StringItem index="644" value="Faroe Islands)"/>
+            <StringItem index="645" value="Rwa (Tanzania)"/>
+            <StringItem index="646" value="Spanish (Peru)"/>
+            <StringItem index="647" value="Makhuwa-Meetto (Mozambique)"/>
+            <StringItem index="648" value="English (United Kingdom)"/>
+            <StringItem index="649" value="Chinese (Traditional"/>
+            <StringItem index="650" value="Hong Kong SAR China)"/>
+            <StringItem index="651" value="Santali (Ol Chiki"/>
+            <StringItem index="652" value="India)"/>
+            <StringItem index="653" value="Kazakh (Kazakhstan)"/>
+            <StringItem index="654" value="Spanish (Panama)"/>
+            <StringItem index="655" value="Arabic (Palestinian Territories)"/>
+            <StringItem index="656" value="French (Monaco)"/>
+            <StringItem index="657" value="Urdu (India)"/>
+            <StringItem index="658" value="Chechen (Cyrillic"/>
+            <StringItem index="659" value="Russia)"/>
+            <StringItem index="660" value="Swiss German (Switzerland)"/>
+            <StringItem index="661" value="Luyia (Kenya)"/>
+            <StringItem index="662" value="Kako (Cameroon)"/>
+            <StringItem index="663" value="Spanish (Equatorial Guinea)"/>
+            <StringItem index="664" value="Makhuwa-Meetto (Latin"/>
+            <StringItem index="665" value="Mozambique)"/>
+            <StringItem index="666" value="Arabic (Yemen)"/>
+            <StringItem index="667" value="English (Sint Maarten)"/>
+            <StringItem index="668" value="Russian (Kazakhstan)"/>
+            <StringItem index="669" value="Korean (North Korea)"/>
+            <StringItem index="670" value="Dutch (Suriname)"/>
+            <StringItem index="671" value="English (Bahamas)"/>
+            <StringItem index="672" value="Bemba (Latin"/>
+            <StringItem index="673" value="Zambia)"/>
+            <StringItem index="674" value="Kalenjin (Latin"/>
+            <StringItem index="675" value="Kenya)"/>
+            <StringItem index="676" value="Chiga (Latin"/>
+            <StringItem index="677" value="Uganda)"/>
+            <StringItem index="678" value="Dutch (Caribbean Netherlands)"/>
+            <StringItem index="679" value="Ewe (Latin"/>
+            <StringItem index="680" value="Ghana)"/>
+            <StringItem index="681" value="Fulah (Adlam"/>
+            <StringItem index="682" value="Guinea)"/>
+            <StringItem index="683" value="Uzbek (Cyrillic"/>
+            <StringItem index="684" value="Uzbekistan)"/>
+            <StringItem index="685" value="Hindi (Devanagari"/>
+            <StringItem index="686" value="India)"/>
+            <StringItem index="687" value="English (Kenya)"/>
+            <StringItem index="688" value="Asu (Tanzania)"/>
+            <StringItem index="689" value="French (Senegal)"/>
+            <StringItem index="690" value="French (Morocco)"/>
+            <StringItem index="691" value="Portuguese (Luxembourg)"/>
+            <StringItem index="692" value="Fulah (Adlam"/>
+            <StringItem index="693" value="Gambia)"/>
+            <StringItem index="694" value="French (St. Barth&#xe9;lemy)"/>
+            <StringItem index="695" value="Meta&#x2bc; (Cameroon)"/>
+            <StringItem index="696" value="Kwasio (Latin"/>
+            <StringItem index="697" value="Cameroon)"/>
+            <StringItem index="698" value="Maithili (India)"/>
+            <StringItem index="699" value="Korean (South Korea)"/>
+            <StringItem index="700" value="Tajik (Cyrillic"/>
+            <StringItem index="701" value="Tajikistan)"/>
+            <StringItem index="702" value="Spanish (Mexico)"/>
+            <StringItem index="703" value="Zulu (Latin"/>
+            <StringItem index="704" value="South Africa)"/>
+            <StringItem index="705" value="Dogri (India)"/>
+            <StringItem index="706" value="English (South Sudan)"/>
+            <StringItem index="707" value="Tibetan (India)"/>
+            <StringItem index="708" value="Tachelhit (Morocco)"/>
+            <StringItem index="709" value="English (Madagascar)"/>
+            <StringItem index="710" value="French (Burundi)"/>
+            <StringItem index="711" value="Upper Sorbian (Latin"/>
+            <StringItem index="712" value="Germany)"/>
+            <StringItem index="713" value="Nama (Latin"/>
+            <StringItem index="714" value="Namibia)"/>
+            <StringItem index="715" value="Breton (Latin"/>
+            <StringItem index="716" value="France)"/>
+            <StringItem index="717" value="Bangla (Bangladesh)"/>
+            <StringItem index="718" value="Spanish (Latin"/>
+            <StringItem index="719" value="Spain)"/>
+            <StringItem index="720" value="English (South Africa)"/>
+            <StringItem index="721" value="Welsh (Latin"/>
+            <StringItem index="722" value="United Kingdom)"/>
+            <StringItem index="723" value="French (France)"/>
+            <StringItem index="724" value="Punjabi (India)"/>
+            <StringItem index="725" value="English (Marshall Islands)"/>
+            <StringItem index="726" value="French (Benin)"/>
+            <StringItem index="727" value="Vai (Liberia)"/>
+            <StringItem index="728" value="Javanese (Latin"/>
+            <StringItem index="729" value="Indonesia)"/>
+            <StringItem index="730" value="Sakha (Russia)"/>
+            <StringItem index="731" value="Pashto (Afghanistan)"/>
+            <StringItem index="732" value="Bosnian (Cyrillic"/>
+            <StringItem index="733" value="Bosnia &amp; Herzegovina)"/>
+            <StringItem index="734" value="Xhosa (Latin"/>
+            <StringItem index="735" value="South Africa)"/>
+            <StringItem index="736" value="Taita (Latin"/>
+            <StringItem index="737" value="Kenya)"/>
+            <StringItem index="738" value="Slovak (Slovakia)"/>
+            <StringItem index="739" value="Koyra Chiini (Latin"/>
+            <StringItem index="740" value="Mali)"/>
+            <StringItem index="741" value="Mazanderani (Arabic"/>
+            <StringItem index="742" value="Iran)"/>
+            <StringItem index="743" value="Mongolian (Cyrillic"/>
+            <StringItem index="744" value="Mongolia)"/>
+            <StringItem index="745" value="Wolof (Senegal)"/>
+            <StringItem index="746" value="Hausa (Latin"/>
+            <StringItem index="747" value="Nigeria)"/>
+            <StringItem index="748" value="French (Haiti)"/>
+            <StringItem index="749" value="Russian (Cyrillic"/>
+            <StringItem index="750" value="Russia)"/>
+            <StringItem index="751" value="Telugu (India)"/>
+            <StringItem index="752" value="Masai (Latin"/>
+            <StringItem index="753" value="Kenya)"/>
+            <StringItem index="754" value="Dutch (Sint Maarten)"/>
+            <StringItem index="755" value="French (Congo - Brazzaville)"/>
+            <StringItem index="756" value="Manx (Latin"/>
+            <StringItem index="757" value="Isle of Man)"/>
+            <StringItem index="758" value="Maltese (Malta)"/>
+            <StringItem index="759" value="Malay (Latin"/>
+            <StringItem index="760" value="Malaysia)"/>
+            <StringItem index="761" value="Malayalam (Malayalam"/>
+            <StringItem index="762" value="India)"/>
+            <StringItem index="763" value="Low German (Netherlands)"/>
+            <StringItem index="764" value="Standard Moroccan Tamazight (Tifinagh"/>
+            <StringItem index="765" value="Morocco)"/>
+            <StringItem index="766" value="Nyankole (Latin"/>
+            <StringItem index="767" value="Uganda)"/>
+            <StringItem index="768" value="English (Vanuatu)"/>
+            <StringItem index="769" value="Tongan (Tonga)"/>
+            <StringItem index="770" value="Fulah (Latin"/>
+            <StringItem index="771" value="Sierra Leone)"/>
+            <StringItem index="772" value="Sena (Mozambique)"/>
+            <StringItem index="773" value="Soga (Latin"/>
+            <StringItem index="774" value="Uganda)"/>
+            <StringItem index="775" value="Fulah (Adlam"/>
+            <StringItem index="776" value="Senegal)"/>
+            <StringItem index="777" value="Vietnamese (Latin"/>
+            <StringItem index="778" value="Vietnam)"/>
+            <StringItem index="779" value="Sundanese (Indonesia)"/>
+            <StringItem index="780" value="Ngomba (Latin"/>
+            <StringItem index="781" value="Cameroon)"/>
+            <StringItem index="782" value="Sichuan Yi (China)"/>
+            <StringItem index="783" value="Punjabi (Arabic"/>
+            <StringItem index="784" value="Pakistan)"/>
+            <StringItem index="785" value="French (R&#xe9;union)"/>
+            <StringItem index="786" value="Bangla (India)"/>
+            <StringItem index="787" value="French (Guadeloupe)"/>
+            <StringItem index="788" value="Standard Moroccan Tamazight (Morocco)"/>
+            <StringItem index="789" value="Ukrainian (Ukraine)"/>
+            <StringItem index="790" value="Ganda (Latin"/>
+            <StringItem index="791" value="Uganda)"/>
+            <StringItem index="792" value="Cebuano (Latin"/>
+            <StringItem index="793" value="Philippines)"/>
+            <StringItem index="794" value="English (Norfolk Island)"/>
+            <StringItem index="795" value="French (Switzerland)"/>
+            <StringItem index="796" value="Serbian (Cyrillic Kosovo)"/>
+            <StringItem index="797" value="Norwegian Bokm&#xe5;l (Latin Norway)"/>
+            <StringItem index="798" value="Arabic (South Sudan)"/>
+            <StringItem index="799" value="English (Guam)"/>
+            <StringItem index="800" value="Dutch (Aruba)"/>
+            <StringItem index="801" value="English (Anguilla)"/>
+            <StringItem index="802" value="Western Frisian (Latin"/>
+            <StringItem index="803" value="Netherlands)"/>
+            <StringItem index="804" value="Soga (Uganda)"/>
+            <StringItem index="805" value="English (Cameroon)"/>
+            <StringItem index="806" value="Czech (Czechia)"/>
+            <StringItem index="807" value="Catalan (Spain)"/>
+            <StringItem index="808" value="Hungarian (Latin"/>
+            <StringItem index="809" value="Hungary)"/>
+            <StringItem index="810" value="Romansh (Switzerland)"/>
+            <StringItem index="811" value="Russian (Moldova)"/>
+            <StringItem index="812" value="Fulah (Latin"/>
+            <StringItem index="813" value="Senegal)"/>
+            <StringItem index="814" value="English (Tonga)"/>
+            <StringItem index="815" value="Fulah (Adlam"/>
+            <StringItem index="816" value="Sierra Leone)"/>
+            <StringItem index="817" value="English (Papua New Guinea)"/>
+            <StringItem index="818" value="Estonian (Latin"/>
+            <StringItem index="819" value="Estonia)"/>
+            <StringItem index="820" value="French (Central African Republic)"/>
+            <StringItem index="821" value="Portuguese (Timor-Leste)"/>
+            <StringItem index="822" value="English (Eritrea)"/>
+            <StringItem index="823" value="Serbian (Bosnia &amp; Herzegovina)"/>
+            <StringItem index="824" value="Spanish (Paraguay)"/>
+            <StringItem index="825" value="Konkani (India)"/>
+            <StringItem index="826" value="Belarusian (Cyrillic"/>
+            <StringItem index="827" value="Belarus)"/>
+            <StringItem index="828" value="French (Togo)"/>
+            <StringItem index="829" value="Dzongkha (Tibetan"/>
+            <StringItem index="830" value="Bhutan)"/>
+            <StringItem index="831" value="Serbian (Latin"/>
+            <StringItem index="832" value="Kosovo)"/>
+            <StringItem index="833" value="English (Philippines)"/>
+            <StringItem index="834" value="Igbo (Nigeria)"/>
+            <StringItem index="835" value="French (Guinea)"/>
+            <StringItem index="836" value="Scottish Gaelic (Latin"/>
+            <StringItem index="837" value="United Kingdom)"/>
+            <StringItem index="838" value="Chinese (Simplified"/>
+            <StringItem index="839" value="Macao SAR China)"/>
+            <StringItem index="840" value="Northern Sami (Finland)"/>
+            <StringItem index="841" value="English (Cook Islands)"/>
+            <StringItem index="842" value="Arabic (Morocco)"/>
+            <StringItem index="843" value="Hawaiian (Latin"/>
+            <StringItem index="844" value="United States)"/>
+            <StringItem index="845" value="English (Antigua &amp; Barbuda)"/>
+            <StringItem index="846" value="French (Chad)"/>
+            <StringItem index="847" value="Embu (Kenya)"/>
+            <StringItem index="848" value="Lithuanian (Latin"/>
+            <StringItem index="849" value="Lithuania)"/>
+            <StringItem index="850" value="Bemba (Zambia)"/>
+            <StringItem index="851" value="Ewondo (Latin"/>
+            <StringItem index="852" value="Cameroon)"/>
+            <StringItem index="853" value="Ewondo (Cameroon)"/>
+            <StringItem index="854" value="French (Congo - Kinshasa)"/>
+            <StringItem index="855" value="Rundi (Burundi)"/>
+            <StringItem index="856" value="English (Namibia)"/>
+            <StringItem index="857" value="Meta&#x2bc; (Latin"/>
+            <StringItem index="858" value="Cameroon)"/>
+            <StringItem index="859" value="Catalan (Italy)"/>
+            <StringItem index="860" value="Quechua (Latin"/>
+            <StringItem index="861" value="Peru)"/>
+            <StringItem index="862" value="Langi (Tanzania)"/>
+            <StringItem index="863" value="Indonesian (Indonesia)"/>
+            <StringItem index="864" value="Teso (Kenya)"/>
+            <StringItem index="865" value="Catalan (Andorra)"/>
+            <StringItem index="866" value="Quechua (Bolivia)"/>
+            <StringItem index="867" value="Hawaiian (United States)"/>
+            <StringItem index="868" value="French (Canada)"/>
+            <StringItem index="869" value="Kabuverdianu (Latin"/>
+            <StringItem index="870" value="Cape Verde)"/>
+            <StringItem index="871" value="Albanian (Kosovo)"/>
+            <StringItem index="872" value="Maori (Latin"/>
+            <StringItem index="873" value="New Zealand)"/>
+            <StringItem index="874" value="English (Cayman Islands)"/>
+            <StringItem index="875" value="Italian (Switzerland)"/>
+            <StringItem index="876" value="Sinhala (Sri Lanka)"/>
+            <StringItem index="877" value="Luo (Kenya)"/>
+            <StringItem index="878" value="English (United Arab Emirates)"/>
+            <StringItem index="879" value="Italian (Italy)"/>
+            <StringItem index="880" value="Arabic (Somalia)"/>
+            <StringItem index="881" value="English (Zimbabwe)"/>
+            <StringItem index="882" value="Norwegian Nynorsk (Norway)"/>
+            <StringItem index="883" value="French (Mauritius)"/>
+            <StringItem index="884" value="Northern Sami (Sweden)"/>
+            <StringItem index="885" value="English (Tokelau)"/>
+            <StringItem index="886" value="Mundang (Cameroon)"/>
+            <StringItem index="887" value="Samburu (Kenya)"/>
+            <StringItem index="888" value="Portuguese (Guinea-Bissau)"/>
+            <StringItem index="889" value="Shona (Latin"/>
+            <StringItem index="890" value="Zimbabwe)"/>
+            <StringItem index="891" value="Malay (Singapore)"/>
+            <StringItem index="892" value="Ewe (Togo)"/>
+            <StringItem index="893" value="Lingala (Angola)"/>
+            <StringItem index="894" value="Belarusian (Belarus)"/>
+            <StringItem index="895" value="Khmer (Khmer"/>
+            <StringItem index="896" value="Cambodia)"/>
+            <StringItem index="897" value="Italian (Latin"/>
+            <StringItem index="898" value="Italy)"/>
+            <StringItem index="899" value="Portuguese (Cape Verde)"/>
+            <StringItem index="900" value="Spanish (Puerto Rico)"/>
+            <StringItem index="901" value="Walser (Switzerland)"/>
+            <StringItem index="902" value="Russian (Belarus)"/>
+            <StringItem index="903" value="Faroese (Denmark)"/>
+            <StringItem index="904" value="Ewe (Ghana)"/>
+            <StringItem index="905" value="Arabic (Bahrain)"/>
+            <StringItem index="906" value="Kazakh (Cyrillic"/>
+            <StringItem index="907" value="Kazakhstan)"/>
+            <StringItem index="908" value="Uyghur (Arabic"/>
+            <StringItem index="909" value="China)"/>
+            <StringItem index="910" value="Hindi (India)"/>
+            <StringItem index="911" value="English (Switzerland)"/>
+            <StringItem index="912" value="Samburu (Latin"/>
+            <StringItem index="913" value="Kenya)"/>
+            <StringItem index="914" value="Faroese (Faroe Islands)"/>
+            <StringItem index="915" value="Yoruba (Benin)"/>
+            <StringItem index="916" value="Asturian (Spain)"/>
+            <StringItem index="917" value="French (Comoros)"/>
+            <StringItem index="918" value="French (Martinique)"/>
+            <StringItem index="919" value="Spanish (Argentina)"/>
+            <StringItem index="920" value="Dogri (Devanagari"/>
+            <StringItem index="921" value="India)"/>
+            <StringItem index="922" value="English (Malaysia)"/>
+            <StringItem index="923" value="Sangu (Tanzania)"/>
+            <StringItem index="924" value="Embu (Latin"/>
+            <StringItem index="925" value="Kenya)"/>
+            <StringItem index="926" value="Cantonese (Traditional"/>
+            <StringItem index="927" value="Hong Kong SAR China)"/>
+            <StringItem index="928" value="Armenian (Armenia)"/>
+            <StringItem index="929" value="English (Gambia)"/>
+            <StringItem index="930" value="Shambala (Latin"/>
+            <StringItem index="931" value="Tanzania)"/>
+            <StringItem index="932" value="Nepali (Nepal)"/>
+            <StringItem index="933" value="Friulian (Italy)"/>
+            <StringItem index="934" value="Tamil (India)"/>
+            <StringItem index="935" value="French (French Guiana)"/>
+            <StringItem index="936" value="Indonesian (Latin"/>
+            <StringItem index="937" value="Indonesia)"/>
+            <StringItem index="938" value="Portuguese (Angola)"/>
+            <StringItem index="939" value="Telugu (Telugu"/>
+            <StringItem index="940" value="India)"/>
+            <StringItem index="941" value="English (world)"/>
+            <StringItem index="942" value="Duala (Latin"/>
+            <StringItem index="943" value="Cameroon)"/>
+            <StringItem index="944" value="Javanese (Indonesia)"/>
+            <StringItem index="945" value="Langi (Latin"/>
+            <StringItem index="946" value="Tanzania)"/>
+            <StringItem index="947" value="Russian (Kyrgyzstan)"/>
+            <StringItem index="948" value="French (Mauritania)"/>
+            <StringItem index="949" value="Bafia (Latin"/>
+            <StringItem index="950" value="Cameroon)"/>
+            <StringItem index="951" value="Fulah (Latin"/>
+            <StringItem index="952" value="Burkina Faso)"/>
+            <StringItem index="953" value="Chinese (Traditional"/>
+            <StringItem index="954" value="Taiwan)"/>
+            <StringItem index="955" value="Assamese (India)"/>
+            <StringItem index="956" value="Chinese (Hong Kong SAR China)"/>
+            <StringItem index="957" value="Swahili (Kenya)"/>
+            <StringItem index="958" value="Assamese (Bangla"/>
+            <StringItem index="959" value="India)"/>
+            <StringItem index="960" value="Thai (Thailand)"/>
+            <StringItem index="961" value="English (Malawi)"/>
+            <StringItem index="962" value="Nama (Namibia)"/>
+            <StringItem index="963" value="English (British Indian Ocean Territory)"/>
+            <StringItem index="964" value="Arabic (Qatar)"/>
+            <StringItem index="965" value="Arabic (Arabic"/>
+            <StringItem index="966" value="Egypt)"/>
+            <StringItem index="967" value="English (Cocos (Keeling) Islands)"/>
+            <StringItem index="968" value="Portuguese (Portugal)"/>
+            <StringItem index="969" value="Slovak (Latin"/>
+            <StringItem index="970" value="Slovakia)"/>
+            <StringItem index="971" value="Azerbaijani (Cyrillic"/>
+            <StringItem index="972" value="Azerbaijan)"/>
+            <StringItem index="973" value="Central Kurdish (Iraq)"/>
+            <StringItem index="974" value="Tachelhit (Latin"/>
+            <StringItem index="975" value="Morocco)"/>
+            <StringItem index="976" value="Spanish (Cuba)"/>
+            <StringItem index="977" value="English (U.S. Virgin Islands)"/>
+            <StringItem index="978" value="Basque (Spain)"/>
+            <StringItem index="979" value="Igbo (Latin"/>
+            <StringItem index="980" value="Nigeria)"/>
+            <StringItem index="981" value="Greek (Greece)"/>
+            <StringItem index="982" value="Yangben (Cameroon)"/>
+            <StringItem index="983" value="Danish (Greenland)"/>
+            <StringItem index="984" value="Khmer (Cambodia)"/>
+            <StringItem index="985" value="Central Kurdish (Iran)"/>
+            <StringItem index="986" value="Kashmiri (Arabic"/>
+            <StringItem index="987" value="India)"/>
+            <StringItem index="988" value="Catalan (Spain"/>
+            <StringItem index="989" value="Valencian)"/>
+            <StringItem index="990" value="Wolof (Latin"/>
+            <StringItem index="991" value="Senegal)"/>
+            <StringItem index="992" value="Sindhi (Devanagari"/>
+            <StringItem index="993" value="India)"/>
+            <StringItem index="994" value="Marathi (Devanagari"/>
+            <StringItem index="995" value="India)"/>
+            <StringItem index="996" value="Spanish (Costa Rica)"/>
+            <StringItem index="997" value="French (Gabon)"/>
+            <StringItem index="998" value="Arabic (Libya)"/>
+            <StringItem index="999" value="English (Mauritius)"/>
+            <StringItem index="1000" value="Galician (Spain)"/>
+            <StringItem index="1001" value="Azerbaijani (Latin"/>
+            <StringItem index="1002" value="Azerbaijan)"/>
+            <StringItem index="1003" value="English (Isle of Man)"/>
+            <StringItem index="1004" value="Swiss German (Latin"/>
+            <StringItem index="1005" value="Switzerland)"/>
+            <StringItem index="1006" value="Sena (Latin"/>
+            <StringItem index="1007" value="Mozambique)"/>
+            <StringItem index="1008" value="English (Gibraltar)"/>
+            <StringItem index="1009" value="English (Canada)"/>
+            <StringItem index="1010" value="Cherokee (Cherokee"/>
+            <StringItem index="1011" value="United States)"/>
+            <StringItem index="1012" value="French (Syria)"/>
+            <StringItem index="1013" value="Odia (Odia India)"/>
+            <StringItem index="1014" value="Somali (Ethiopia)"/>
+            <StringItem index="1015" value="Catalan (Latin Spain)"/>
+            <StringItem index="1016" value="Dutch (Belgium)"/>
+            <StringItem index="1017" value="Arabic (Djibouti)"/>
+            <StringItem index="1018" value="Jola-Fonyi (Latin Senegal)"/>
+            <StringItem index="1019" value="Welsh (United Kingdom)"/>
+            <StringItem index="1020" value="English (British Virgin Islands)"/>
+            <StringItem index="1021" value="English (Turks &amp; Caicos Islands)"/>
+            <StringItem index="1022" value="Swedish (&#xc5;land Islands)"/>
+            <StringItem index="1023" value="Czech (Latin Czechia)"/>
+            <StringItem index="1024" value="Afrikaans (Namibia)"/>
+            <StringItem index="1025" value="English (India)"/>
+            <StringItem index="1026" value="Spanish (Nicaragua)"/>
+            <StringItem index="1027" value="Sichuan Yi (Yi China)"/>
+            <StringItem index="1028" value="Sindhi (Pakistan)"/>
+            <StringItem index="1029" value="Masai (Tanzania)"/>
+            <StringItem index="1030" value="Malay (Brunei)"/>
+            <StringItem index="1031" value="Chakma (India)"/>
+            <StringItem index="1032" value="Breton (France)"/>
+          </StringArray>
+        </Property>
+      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jLocaleChooser1ActionPerformed"/>
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="260" width="190" height="30"/>
+          <AbsoluteConstraints x="120" y="230" width="190" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -226,7 +1252,7 @@
       </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="330" y="10" width="980" height="510"/>
+          <AbsoluteConstraints x="320" y="10" width="990" height="520"/>
         </Constraint>
       </Constraints>
 
@@ -235,21 +1261,21 @@
         <Component class="javax.swing.JTable" name="jTable1">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="15" rowCount="15">
+              <Table columnCount="15" rowCount="0">
                 <Column editable="true" title="Customer_Ref" type="java.lang.String"/>
                 <Column editable="true" title="First name" type="java.lang.String"/>
                 <Column editable="true" title="Sur name" type="java.lang.String"/>
                 <Column editable="true" title="Address 1" type="java.lang.String"/>
-                <Column editable="true" title="Address 2" type="java.lang.String"/>
                 <Column editable="true" title="Post code" type="java.lang.String"/>
                 <Column editable="true" title="Customer mobile" type="java.lang.String"/>
                 <Column editable="true" title="Email" type="java.lang.String"/>
                 <Column editable="true" title="Nationality" type="java.lang.String"/>
-                <Column editable="true" title="Date of birth" type="java.lang.String"/>
+                <Column editable="true" title="Date of birth" type="java.lang.Object"/>
                 <Column editable="true" title="Gender" type="java.lang.Object"/>
                 <Column editable="true" title="Check in date" type="java.lang.Object"/>
                 <Column editable="true" title="Check out date" type="java.lang.Object"/>
-                <Column editable="true" title="Room type" type="java.lang.Object"/>
+                <Column editable="true" title="Meal" type="java.lang.Object"/>
+                <Column editable="true" title="Room type" type="java.lang.String"/>
                 <Column editable="true" title="Room No" type="java.lang.String"/>
               </Table>
             </Property>
@@ -273,21 +1299,21 @@
     <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="290" width="190" height="30"/>
+          <AbsoluteConstraints x="120" y="260" width="190" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser2">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="380" width="190" height="30"/>
+          <AbsoluteConstraints x="120" y="350" width="190" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser3">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="410" width="190" height="30"/>
+          <AbsoluteConstraints x="120" y="380" width="190" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -556,7 +1582,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="JBtn_Reset">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -564,7 +1590,7 @@
             <Property name="text" type="java.lang.String" value="Reset"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBtn_ResetActionPerformed"/>
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -572,20 +1598,23 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="JBtn_Update">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Total Cost"/>
+            <Property name="text" type="java.lang.String" value="Update"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBtn_UpdateActionPerformed"/>
+          </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="360" y="20" width="150" height="60"/>
+              <AbsoluteConstraints x="1060" y="20" width="150" height="60"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
+        <Component class="javax.swing.JButton" name="JBtn_Exit">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -593,7 +1622,7 @@
             <Property name="text" type="java.lang.String" value="Exit"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBtn_ExitActionPerformed"/>
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -601,7 +1630,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
+        <Component class="javax.swing.JButton" name="jBtn_Delete">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="1"/>
@@ -609,11 +1638,43 @@
             <Property name="text" type="java.lang.String" value="Delete"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtn_DeleteActionPerformed"/>
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="530" y="20" width="150" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="JBtn_Exit1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBtn_Exit1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="880" y="20" width="160" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="JBtn_Total">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total Cost"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JBtn_TotalActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="360" y="20" width="150" height="60"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -690,7 +1751,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="170" width="190" height="-1"/>
+          <AbsoluteConstraints x="120" y="140" width="190" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -705,7 +1766,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="230" width="190" height="-1"/>
+          <AbsoluteConstraints x="120" y="200" width="190" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -720,22 +1781,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="200" width="190" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JTextField" name="jTextField24">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="1"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField24ActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="140" width="190" height="-1"/>
+          <AbsoluteConstraints x="120" y="170" width="190" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -744,11 +1790,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Room type :"/>
+        <Property name="text" type="java.lang.String" value="Meal :"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="440" width="80" height="20"/>
+          <AbsoluteConstraints x="10" y="410" width="70" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -771,34 +1817,10 @@
           <Font name="Tahoma" size="12" style="1"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="Item 1"/>
-            <StringItem index="1" value="Item 2"/>
-            <StringItem index="2" value="Item 3"/>
-            <StringItem index="3" value="Item 4"/>
-          </StringArray>
-        </Property>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-      </AuxValues>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="350" width="190" height="30"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JComboBox" name="jComboBox2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="Item 1"/>
-            <StringItem index="1" value="Item 2"/>
-            <StringItem index="2" value="Item 3"/>
-            <StringItem index="3" value="Item 4"/>
+          <StringArray count="3">
+            <StringItem index="0" value="Select Gender"/>
+            <StringItem index="1" value="Male"/>
+            <StringItem index="2" value="Female"/>
           </StringArray>
         </Property>
       </Properties>
@@ -811,17 +1833,51 @@
         </Constraint>
       </Constraints>
     </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Select ID type"/>
+            <StringItem index="1" value="Driving Licence"/>
+            <StringItem index="2" value="Passport"/>
+            <StringItem index="3" value="Pilot Licence"/>
+            <StringItem index="4" value="Student ID"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="120" y="290" width="190" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
     <Component class="javax.swing.JComboBox" name="jComboBox3">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="12" style="1"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="Item 1"/>
-            <StringItem index="1" value="Item 2"/>
-            <StringItem index="2" value="Item 3"/>
-            <StringItem index="3" value="Item 4"/>
+          <StringArray count="14">
+            <StringItem index="0" value="Select Ext No."/>
+            <StringItem index="1" value="101"/>
+            <StringItem index="2" value="102"/>
+            <StringItem index="3" value="103"/>
+            <StringItem index="4" value="104"/>
+            <StringItem index="5" value="105"/>
+            <StringItem index="6" value="106"/>
+            <StringItem index="7" value="107"/>
+            <StringItem index="8" value="108"/>
+            <StringItem index="9" value="109"/>
+            <StringItem index="10" value="110"/>
+            <StringItem index="11" value="111"/>
+            <StringItem index="12" value="112"/>
+            <StringItem index="13" value="113"/>
           </StringArray>
         </Property>
       </Properties>
@@ -841,10 +1897,10 @@
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="4">
-            <StringItem index="0" value="Item 1"/>
-            <StringItem index="1" value="Item 2"/>
-            <StringItem index="2" value="Item 3"/>
-            <StringItem index="3" value="Item 4"/>
+            <StringItem index="0" value="Select Room Type"/>
+            <StringItem index="1" value="Single"/>
+            <StringItem index="2" value="Couple"/>
+            <StringItem index="3" value="Family"/>
           </StringArray>
         </Property>
       </Properties>
@@ -863,11 +1919,22 @@
           <Font name="Tahoma" size="12" style="1"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="Item 1"/>
-            <StringItem index="1" value="Item 2"/>
-            <StringItem index="2" value="Item 3"/>
-            <StringItem index="3" value="Item 4"/>
+          <StringArray count="15">
+            <StringItem index="0" value="Select Room No"/>
+            <StringItem index="1" value="001"/>
+            <StringItem index="2" value="002"/>
+            <StringItem index="3" value="003"/>
+            <StringItem index="4" value="004"/>
+            <StringItem index="5" value="005"/>
+            <StringItem index="6" value="006"/>
+            <StringItem index="7" value="007"/>
+            <StringItem index="8" value="008"/>
+            <StringItem index="9" value="009"/>
+            <StringItem index="10" value="010"/>
+            <StringItem index="11" value="011"/>
+            <StringItem index="12" value="012"/>
+            <StringItem index="13" value="013"/>
+            <StringItem index="14" value=" "/>
           </StringArray>
         </Property>
       </Properties>
@@ -877,6 +1944,39 @@
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="120" y="470" width="190" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel27">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Room type :"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="440" width="80" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox6">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Select No. of Meal"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="120" y="410" width="190" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
